@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+        @import url('http://fonts.cdnfonts.com/css/trebuchet-ms-2');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class='head-title'>Ты сегодня покормил кота?</h1>
+    </header>
+
+    <main class='main'>
+        <div class='product'>
+            <ul class="product__list">
+                <li class="product__active">
+                    <div class='product__item product__item-active'>
+                        <div class="item__info item__info-active">
+                            <div class="info">
+                                <p class='info__1'>Котэ не одобряет?</p>
+                                <p class="info__2">Сказочное заморское яство</p>
+                            </div>
+                            <span class='info__title'>Нямушка</span><br>
+                            <span class='info__flavor'>с фуа-гра</span><br>
+                            <span class='info__addition'>10 порций<br> мышь в подарок</span>
+                            <div class='card__size card__size-active'>
+                                <div class="card__size-weight">
+                                    <span class='size__number'>0,5</span><br>
+                                    <span class='size__text'>кг</span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./img/cats.jpg" alt="кот для фона упаковки">
+                    </div>
+                    <p class='item__text'>Чего сидишь? Порадуй котэ, <button class='item__link'>купи.</button></p>
+
+                    <div class="item__bought">
+                        <p>Печень утки разварная с артишоками.</p>
+                    </div>
+                </li>
+
+                <li class="product__active">
+                    <div class='product__item product__item-active'>
+                        <div class="item__info item__info-active">
+                            <div class="info">
+                                <p class='info__1'>Котэ не одобряет?</p>
+                                <p class="info__2">Сказочное заморское яство</p>
+                            </div>
+                            <span class='info__title'>Нямушка</span><br>
+                            <span class='info__flavor'>с рыбой</span><br>
+                            <span class='info__addition'>40 порций<br> 2 мыши в подарок</span>
+                            <div class='card__size card__size-active'>
+                                <div class="card__size-weight">
+                                    <span class='size__number'>2</span><br>
+                                    <span class='size__text'>кг</span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./img/cats.jpg" alt="кот для фона упаковки">
+                    </div>
+                    <p class='item__text'>Чего сидишь? Порадуй котэ, <button class='item__link'>купи.</button></p>
+
+                    <div class="item__bought">
+                        <p>Головы щучьи с чесноком да свежайшая сёмгушка.</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class='product__item product__item-disabled'>
+                        <div class="item__info item__info-disabled ">
+                            <p class='info__subtitle'>Сказочное заморское яство</p>
+                            <span class='info__title info__title-disabled'>Нямушка</span><br>
+                            <span class='info__flavor info__flavor-disabled'>с курой</span><br>
+                            <span class='info__addition'>100 порций<br> 5 мышей в подарок<br> заказчик доволен</span>
+                            <div class='card__size card__size-disabled'>
+                                <div class="card__size-weight ">
+                                    <span class='size__number'>5</span><br>
+                                    <span class='size__text'>кг</span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./img/cats.jpg " alt="кот для фона упаковки " class="product__item-photo "></div>
+                    <p class='item__text item__text-disabled'>Печалька, с курой закончился.</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="./index.js "></script>
+</body>
+
+</html>
